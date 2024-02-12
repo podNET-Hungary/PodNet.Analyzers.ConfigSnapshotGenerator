@@ -11,7 +11,7 @@
 		<PackageReference Include="PodNet.Analyzers.Core" Version="1.0.8" PrivateAssets="all" />
 		<PackageReference Include="PodNet.NuGet.Core" Version="1.0.4" PrivateAssets="all" />
 		
-		<None Update="build/*" PackagePath="build" />
+		<Content Include="build/*" PackagePath="build" />
 	</ItemGroup>
 
 </Project>
