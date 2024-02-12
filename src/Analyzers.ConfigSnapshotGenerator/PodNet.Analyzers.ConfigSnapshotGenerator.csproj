@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Description>A generator to ease diagnostics of incremental source generators. Source available for reference only.</Description>
+		<PackageTags>PodNet, analyzers, source generator, diagnostics, awesome</PackageTags>
+		<PodNetIncludeAnalyzer>true</PodNetIncludeAnalyzer>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="PodNet.Analyzers.Core" Version="1.0.7" PrivateAssets="all" />
+		<PackageReference Include="PodNet.NuGet.Core" Version="1.0.4" PrivateAssets="all" />
+		
+		<None Update="build/*" PackagePath="build" />
+	</ItemGroup>
+
+</Project>
