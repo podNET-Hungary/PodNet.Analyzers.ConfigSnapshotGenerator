@@ -8,8 +8,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="PodNet.Analyzers.Core" Version="1.0.8" PrivateAssets="all" />
-		<PackageReference Include="PodNet.NuGet.Core" Version="1.0.4" PrivateAssets="all" />
+		<PackageReference Include="PodNet.Analyzers.Core" Version="1.0.14" PrivateAssets="all" />
+		<PackageReference Include="PodNet.NuGet.Core" Version="1.0.5" PrivateAssets="all" />
 		
 		<Content Include="build/*" PackagePath="build" />
 	</ItemGroup>
